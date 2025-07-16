@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#optionMenu {
+    width: fit-content;
+    border-radius: 2vw;
+    display: flex;
+    gap: 5rem;
+    margin: 2rem auto;
+
+}
+
+#tab {
+    border: 2px solid white;
+    border-radius: 2vw;
+    padding: .5rem 3rem;
+    box-shadow: 0px 0px 5px white;
+}
+
+
+#tab:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px white;
+}

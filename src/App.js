@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import DigitalClock from './components/DigitalClock/DigitalClock.jsx';
+import Calender from './components/Calender/Calender.jsx';
+import Header from './components/header/Header.jsx';
+import { useContext, useEffect } from 'react';
+import { Context } from './components/Context/UseContext.js';
 
 function App() {
+
+  const { currentTab, setCurrentTab } = useContext(Context);
+
+
+
+  useEffect(() => {
+    console.log(currentTab)
+  })
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {
+        currentTab[0] === true && <DigitalClock />
+      }
+
+      {
+
+        currentTab[1] === true && <Calender />
+      }
+      {
+
+        currentTab[2] === true && <DigitalClock />
+      }
+
+      <newf />
     </div>
   );
 }

@@ -1,0 +1,71 @@
+.calendarWindow {
+    /* border: 2px solid orange; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.calenderBox {
+    /* border: 2px solid orange; */
+    width: 45%;
+    height: 75%;
+    margin-top: 2rem;
+}
+
+.CurrentMonthAndYear {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: xx-large;
+}
+
+.CurrentMonthAndYear>div {
+    /* border: 2px solid red; */
+}
+
+.daysBar {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.daysBar>div {
+    /* border-left: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.DateSheet {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 75%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+.DateSheet>div {
+    border: 1px solid rgba(255, 255, 255, 0.084);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.DateSheet>div:hover {
+    border: 1px solid rgb(255, 255, 255);
+
+
+}
