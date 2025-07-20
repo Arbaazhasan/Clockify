@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Arbaazhasan/Clockify/settings/pages/static/css/main.dcb97605.css",
+    "main.js": "/Arbaazhasan/Clockify/settings/pages/static/js/main.a0710630.js",
+    "index.html": "/Arbaazhasan/Clockify/settings/pages/index.html",
+    "main.dcb97605.css.map": "/Arbaazhasan/Clockify/settings/pages/static/css/main.dcb97605.css.map",
+    "main.a0710630.js.map": "/Arbaazhasan/Clockify/settings/pages/static/js/main.a0710630.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcb97605.css",
+    "static/js/main.a0710630.js"
+  ]
+}
