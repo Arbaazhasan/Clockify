@@ -18,7 +18,6 @@ function App() {
       }
 
       {
-
         currentTab[1] === true && <StopWatch />
       }
       {
